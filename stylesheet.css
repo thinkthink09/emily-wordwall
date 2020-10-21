@@ -1,0 +1,43 @@
+body {
+  background-color: 000;
+  overflow: scroll;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  background-color: #ffe5d9;
+  font-size: 12px;
+  width: 90px;
+  height: 45px;
+  padding: 5px;
+  border: 1px dotted #9d8189;
+  color: #9d8189;
+  margin: 3px;
+  text-align: center;
+  overflow: hidden
+}
+
+
+.upper-container{
+  height: 450px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content:center;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
+
+.lower-container{
+  height: 450px;
+  margin-top: inherit;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
