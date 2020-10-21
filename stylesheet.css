@@ -11,6 +11,11 @@
   overflow: hidden
 }
 
+.red {
+  color: white;
+  background-color: red;
+}
+
 .wall {
   display: grid;
   grid-template:
