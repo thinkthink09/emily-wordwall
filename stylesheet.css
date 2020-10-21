@@ -1,17 +1,8 @@
-body {
-  background-color: 000;
-  overflow: scroll;
-}
-
-h1 {
-  color: blue;
-}
-
-p {
+.card {
   background-color: #ffe5d9;
-  font-size: 12px;
-  width: 90px;
-  height: 45px;
+  font-size: 0.8rem;
+  width: 6vw;
+  height: 6vh;
   padding: 5px;
   border: 1px dotted #9d8189;
   color: #9d8189;
@@ -20,24 +11,50 @@ p {
   overflow: hidden
 }
 
+.wall {
+  display: grid;
+  grid-template:
+    'section-2 section-1'
+    'section-3 section-4';
+}
 
-.upper-container{
-  height: 450px;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column-reverse;
-  align-content:center;
-  overflow: scroll;
+.container {
+  height: 50vh;
+  display: inline-flex;
+  border: 1px dotted #9d8189;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.section-1 {
+  grid-area: section-1;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.section-2 {
+  grid-area: section-2;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  align-content: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.section-3 {
+  grid-area: section-3;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
 }
 
-.lower-container{
-  height: 450px;
-  margin-top: inherit;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  align-content:center;
-  overflow: scroll;
+.section-4 {
+  grid-area: section-4;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
 }
