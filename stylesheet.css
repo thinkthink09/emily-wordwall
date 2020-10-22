@@ -11,11 +11,6 @@
   overflow: hidden
 }
 
-.red {
-  color: white;
-  background-color: red;
-}
-
 .wall {
   display: grid;
   grid-template:
@@ -26,7 +21,7 @@
 .container {
   height: 50vh;
   display: inline-flex;
-  border: 1px dotted #9d8189;
+  border: 1px solid #9d8189;
   list-style: none;
   padding: 1rem;
   margin: 0;
