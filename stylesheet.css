@@ -1,14 +1,14 @@
 .card {
   background-color: #ffe5d9;
   font-size: 0.8rem;
-  width: 7vw;
-  height: 6vh;
+  width: 6vw;
+  height: 7.5vh;
   padding: 5px;
   border: 1px dotted #9d8189;
   color: #9d8189;
   margin: 3px;
   text-align: center;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .wall {
@@ -19,7 +19,7 @@
 }
 
 .container {
-  height: 50vh;
+
   display: inline-flex;
   border: 1px solid #9d8189;
   list-style: none;
